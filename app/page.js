@@ -39,7 +39,7 @@ function handleKey(e){
       <h1 className="text-5xl">APA Style Title Case Tool</h1>
       <p className="text-slate-500 mb-4">write your text or Paste the input on the textarea by using Ctrl+V</p>
       <form action="">
-        <textarea className="bg-white" ref={inputRef} onChange={handleInput} name="input-text" id="input-text" cols="80" rows="10"></textarea>
+        <textarea className="bg-white text-black" ref={inputRef} onChange={handleInput} name="input-text" id="input-text" cols="80" rows="10"></textarea>
     </form>
     <p className="text-slate-500 mb-4">Direct Copy your result by pressing Ctrl + C</p>
     <p className='p-2 text-green-800 bg-green-400 mb-5'>{error==""?"Write your Text!":error}</p>
