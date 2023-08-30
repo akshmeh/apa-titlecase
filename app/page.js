@@ -47,11 +47,11 @@ function handleKey(e){
 
     <div className="text-lg bg-gray-800 p-10">
 
-    <p>Input:</p>
+    <p className="text-3xl text-white">Input:</p>
     <p id="getInput">Empty!</p>
     </div>
     <div className="text-lg bg-gray-800 p-10">
-    <p>Result:</p>
+    <p className="text-3xl text-white">Result:</p>
     <p id="result" style={{whiteSpace:"pre-line"}}>Empty!</p>
     </div>
     </div>
