@@ -8,7 +8,7 @@ export default function Home() {
   // const [text, setText] = useState("");
   const [error, setError] = useState("");
   function handleInput(){
-    var breakLine = inputRef.current.value.split("\n").map(e=>{return apStyleTitleCase(e.toLowerCase())}).join("<br/>")
+    var breakLine = inputRef.current.value.split("\n").map(e=>{return apStyleTitleCase(e.toLowerCase().replace(/(\b[a-z](?!\s))/g,function(x){return x.toUpperCase();}))}).join("<br/>")
     // console.log(apStyleTitleCase(inputRef.current.value));
     //  setText(apStyleTitleCase(inputRef.current.value))
     document.querySelector("#result").innerHTML=breakLine;
