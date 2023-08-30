@@ -26,8 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 } */
 body{
-  color:#000;
+  background-color:#000;
+  color:#fff;
 }
 textarea{
   color:#000;
+  background-color: #fff;
 }
